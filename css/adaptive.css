@@ -1,0 +1,730 @@
+/* 1024 - 1390 */
+@media screen and (max-width: 1390px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .phone-adaptive {
+        display: block;
+    }
+
+    header .container {
+        justify-content: center;
+        gap: 17px;
+
+    }
+
+    .menu-item:last-child {
+        display: none;
+    }
+
+    .logo, .phone-adaptive {
+        margin: 0;
+    }
+
+    .main-img {
+        width: 100%;
+        height: 863px;
+    }
+
+    .hero {
+        position: absolute;
+        top: 350px;
+        right: 0;
+    }
+
+    .hero-bg {
+        top: 50px;
+        right: 30px;
+        width: 608px;
+        height: 519px;
+    }
+
+    .hero-card {
+        top: 30px;
+        right: 0;
+        padding: 20px 30px 30px 30px;
+    }
+
+    .hero-info {
+        margin: 21px 0 38px 0;
+    }
+
+    .hero-buttons {
+        gap: 36px;
+    }
+
+
+
+    .for-whom-wrapper {
+        gap: 23px;
+    }
+
+    .for-whom-card {
+        padding: 85px 19px 20px 19px;
+    }
+
+
+    .whom-title {
+        position: absolute;
+        top: -65px;
+        padding: 20px;
+        font-family: 'Playfair Display', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+        color: #FFFEF8;
+        background: #31573F;
+        border-radius: 10px;
+
+    }
+
+    .expect-content {
+        margin: 100px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 38px;
+        grid-row-gap: 40px;
+    }
+
+    .speakers-cards {
+        flex-wrap: wrap;
+        margin: 70px 0 100px 0;
+        gap: 45px;
+    }
+
+
+}
+
+/* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+    header .container {
+        justify-content: space-between;
+        gap: 17px;
+
+    }
+    .section-title {
+        flex-wrap: wrap;
+        padding: 5px 30px;
+    }
+
+    .about {
+        margin-bottom: 300px;
+    }
+
+    .about-content {
+        gap: 0;
+        padding-left: 15px;
+        margin-bottom: 70px;
+    }
+
+    .about-image {
+        object-fit: cover;
+    }
+
+
+    .item-plants {
+        top: 230px;
+    }
+
+    .item-soil {
+        position: absolute;
+        top: 440px;
+        left: 0;
+    }
+
+    .item-jar {
+        position: absolute;
+        right: 0;
+        top: 680px;
+        margin-bottom: 100px;
+    }
+
+
+    .for-whom-description {
+        width: 718px;
+        margin-top: 0;
+        margin-bottom: 117px;
+    }
+
+    .for-whom-card {
+        width: 349px;
+        height: 419px;
+    }
+
+    .whom-title {
+        width: 286px;
+        padding: 28px 12px;
+        font-size: 26px;
+    }
+
+    .whom-text {
+        width: auto;
+    }
+
+    .expect-card img {
+        width: 340px;
+    }
+
+    .scheme-line-1 {
+        display: none;
+    }
+
+    .scheme-line-2 {
+        top: 180px;
+        right: 330px;
+    }
+
+    .scheme-line-3 {
+        top: 420px;
+        right: 330px;
+    }
+
+    .scheme-line-4 {
+        top: 600px;
+        right: 310px;
+    }
+
+    .terrarium {
+        position: relative;
+        top: 880px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .speaker-card-image {
+        width: 297px;
+        overflow: auto;
+    }
+
+    .speaker-card-image img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .speaker-card-name {
+        bottom: 110px;
+        width: 185px;
+    }
+
+    .speaker-card-info {
+        max-width: 295px;
+    }
+
+    .schedule-item {
+        max-width: 718px;
+        column-gap: 50px;
+    }
+
+
+    .gallery-grid {
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-template-rows:
+            auto
+            auto
+            auto
+            auto;
+
+        gap: 8px;
+
+        width: 100%;
+        max-width: 540px;
+
+        margin: 0 auto;
+    }
+
+
+    .gallery-item:nth-child(1) {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
+
+    .gallery-item:nth-child(4) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .gallery-item:nth-child(5) {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+
+    .gallery-item:nth-child(2) {
+        grid-column: 1;
+        grid-row: 3 / 5;
+    }
+
+
+    .gallery-item:nth-child(6) {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .gallery-item:nth-child(3) {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .buy-cards {
+        gap: 30px;
+    }
+
+    .ticket {
+        width: 344px;
+    }
+
+    .map {
+        width: 369px;
+        height: 439px;
+    }
+
+    .contacts-info-connection {
+        margin: 25px 0 30px 0;
+    }
+
+}
+
+/* 375 - 767 */
+@media screen and (max-width: 767px) {
+    .header {
+        width: 100%;
+    }
+    .main {
+        margin-bottom: 450px;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        order: 1;
+    }
+
+    .logo {
+        order: 2;
+    }
+
+    .phone-adaptive {
+        order: 3;
+    }
+
+    .menu {
+        z-index: 10;
+        position: absolute;
+        width: 375px;
+        background: #FFFFFF;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+        gap: 8px;
+    }
+
+    .menu ul li {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0;
+        width: 345px;
+        height: 40px;
+        border-bottom: 1px solid rgba(174, 198, 184, 0.8);
+
+    }
+
+    .menu-link {
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #1E2B22;
+
+    }
+
+
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+    .fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 375px;
+        z-index: 9999;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+
+
+    .main-img {
+        height: 567px;
+    }
+
+    .hero-bg {
+        display: none;
+    }
+
+    .hero {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-card h1 {
+        font-size: 48px;
+        width: 375px;
+    }
+
+    .hero-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-text {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .hero-info {
+        margin: 16px 0 21px 0;
+        width: 345px;
+        text-align: center;
+
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 345px;
+        gap: 20px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .line-h2 {
+        margin-bottom: 70px;
+    }
+
+    .section-title {
+        top: -30px;
+        padding: 5px 30px;
+        font-size: 36px;
+        flex-wrap: wrap;
+        max-width: 227px;
+    }
+
+    .about {
+        margin-bottom: 80px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 21px;
+    }
+
+    .about-text {
+        height: 168px;
+        width: 345px;
+    }
+
+    .about-image {
+        margin-right: 15px;
+    }
+
+
+    .scheme {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 18px;
+        margin-top: 30px;
+    }
+
+
+    .scheme-line {
+        display: none;
+    }
+
+
+    .scheme-item,
+    .terrarium {
+
+        position: static;
+
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+
+        transform: none;
+    }
+
+
+    .terrarium {
+        order: 1;
+    }
+
+    .line_a {
+        display: block;
+        order: 2;
+        margin: 18px 0 20px 0;
+    }
+
+    .item-jar {
+        order: 3;
+        margin: 0;
+    }
+
+    .item-soil {
+        order: 4;
+    }
+
+    .item-plants {
+        order: 5;
+    }
+
+    .item-decor {
+        order: 6;
+    }
+
+    .scheme-item {
+        display: grid;
+
+        grid-template-columns: 140px minmax(0, 1fr);
+
+        grid-template-areas:
+
+            "title title"
+
+            "image description";
+
+        column-gap: 10px;
+
+        row-gap: 7px;
+
+        width: 100%;
+    }
+
+    .scheme-img {
+        grid-area: image;
+        width: 140px;
+        margin: 0;
+        align-self: center;
+    }
+
+    .scheme-img img {
+
+        display: block;
+
+        width: 100%;
+
+        height: auto;
+
+        object-fit: contain;
+    }
+
+
+
+
+   .scheme-text {
+       grid-area: description;
+       font-size: 11px;
+       color: #1E2B22;
+       width: 195px;
+       height: 100%;
+    }
+
+
+    .scheme-title {
+        grid-area: title;
+
+        justify-self: start;
+
+        width: 140px;
+
+        font-size: 18px;
+
+
+        color: #31573F;
+
+        padding-bottom: 4px;
+
+        border-bottom: 1px solid #31573F;
+    }
+
+
+    .terrarium {
+        display: grid;
+
+        grid-template-columns: 140px minmax(0, 1fr);
+
+        grid-template-areas:
+
+            "image text";
+
+        column-gap: 10px;
+
+        align-items: center;
+
+        width: 100%;
+    }
+
+
+    .terrarium-img {
+        grid-area: image;
+        width: 140px;
+    }
+
+
+    .terrarium-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .terrarium-text {
+        grid-area: text;
+        width: 195px;
+        margin: 0;
+        font-size: 11px;
+        line-height: 1.35;
+        color: #1E2B22;
+    }
+
+    .for-whom-description, .whom-text, .schedule-item-desc, .schedule-item-speaker, .contacts-info-place span {
+        font-size: 15px;
+    }
+
+    .for-whom-wrapper {
+        flex-wrap: wrap;
+        gap: 95px;
+    }
+
+    .for-whom-card {
+        height: 232px;
+        width: 100%;
+        padding: 70px 20px 15px 20px;
+    }
+    .for-whom-description {
+        width: 345px;
+        height: 105px;
+        color: #1E2B22;
+    }
+
+    .expect-content {
+        grid-template-columns: 1fr;
+
+    }
+
+    .schedule-item {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        justify-items: start;
+    }
+
+    .schedule-item-time, .schedule-item-title, .place-time {
+        font-size: 24px;
+    }
+
+    .schedule-header {
+        margin-top: 40px;
+    }
+
+    .schedule-item-time {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .schedule-item-title {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .schedule-item-speaker {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .schedule-item-desc {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .buy-cards {
+        flex-wrap: wrap;
+    }
+
+    .contacts-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+    }
+
+    .contacts-info-place {
+        width: 332px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .contact-item {
+        padding: 10px 0;
+    }
+
+    .place-address {
+        font-size: 18px;
+    }
+
+    .map {
+        width: 345px;
+        height: 359px;
+        grid-row: 2;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+
+    .contacts-info-connection {
+        margin: 0;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .social-media {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+
+}
+
+
+
+

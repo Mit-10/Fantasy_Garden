@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Fantasy Garden</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<section class="main">
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/Logo.png" alt="Logo">
+            </a>
+
+            <nav class="menu" id="menu">
+
+                <ul>
+                    <li class="menu-item">
+                        <a href="#what-to-expect" class="menu-link">О выставке</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#schedule" class="menu-link">Расписание</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#gallery" class="menu-link">галерея</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#buy-cards" class="menu-link">купить билет</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contacts" class="menu-link">Адрес и контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="phone">
+                <img src="images/phone.png" alt="phone">
+                <a href="tel:8-800-508-67-13">8-800-508-67-13</a>
+            </div>
+            <div class="phone-adaptive">
+                <a href="tel:8-800-508-67-13"><img src="images/icons/phone_receiver.png" alt=""></a>
+            </div>
+            <div class="menu-close">
+                <svg class="close-icon " version="1.1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                    c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                    c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                    L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                    c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                    c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                    c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                            </g>
+                        </g>
+                </svg>
+            </div>
+            <div class="burger-menu" id="burger">
+                <svg class="burger-menu-svg" width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.875 1.875H31.875" stroke="#1E2B22" stroke-width="3.75" stroke-linecap="round"/>
+                    <path d="M1.875 13.875H31.875" stroke="#1E2B22" stroke-width="3.75" stroke-linecap="round"/>
+                    <path d="M1.875 25.875H31.875" stroke="#1E2B22" stroke-width="3.75" stroke-linecap="round"/>
+                </svg>
+
+
+
+            </div>
+        </div>
+    </header>
+    <img class="main-img" src="images/1.png" alt="flowers_in_a_jar">
+
+    <div class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-card">
+            <h1>Fantasy Garden</h1>
+
+            <div class="hero-text">
+                Выставка и продажа
+                флорариумов
+            </div>
+
+            <div class="hero-info">
+                <div class="date">19 мая 2025 года</div>
+                <div class="time">10:00 – 19:00</div>
+                <div class="address">ул. Чаплыгина 18</div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#buy-cards" class="btn btn-light hvr-float-shadow">Купить билет</a>
+                <a href="#schedule" class="btn btn-dark hvr-float-shadow">Программа</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="about" >
+    <div class="line-h2">
+          <h2 class="section-title">Что такое флорариум?</h2>
+    </div>
+
+    <div class="about-content wow  animate__fadeInRight">
+        <div class="about-text">
+            <p>
+                Флорариум — это композиция из маленьких растений и различного декора, помещённая в прозрачную ёмкость.
+                Прообразом современного флорариума стал «ящик Уорда» - стеклянный сосуд для выращивания и перевозки
+                растений, разработанный английским врачом Натаниэлем Уордом в 1830 году.
+            </p>
+        </div>
+
+        <img class="about-image" src="images/2.png" alt="Флорариумы">
+    </div>
+    <div class="container">
+        <div class="scheme wow animate__fadeInLeft">
+            <div class="scheme-item item-decor">
+                <div class="scheme-title">Декор</div>
+                <div class="scheme-text">
+                    В качестве декора подойдёт цветной песок и гравий, мох, миниатюрные фигурки, коряги, ракушки
+                    и многое другое. Грамотный декор природными или искусственными материалами, придаст флорариуму
+                    неповторимый вид
+                </div>
+                <div class="scheme-img">
+                    <img src="images/scheme-1.png" alt="scheme-1">
+                </div>
+            </div>
+            <svg class="scheme-line scheme-line-1" width="98" height="58" viewBox="0 0 98 58" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 97.6508 48.7245)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 80.8203 39.9079)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 63.9902 31.091)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 47.1594 22.2741)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 30.3291 13.4574)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 13.4985 4.64055)"
+                        fill="#31573F"/>
+            </svg>
+
+            <div class="scheme-item item-plants">
+                <div class="scheme-img">
+                    <img src="images/scheme-2.png" alt="scheme-1">
+                </div>
+                <div class="scheme-title">Растения</div>
+                <div class="scheme-text">
+
+                    Обычно используют маленькие растения с ограниченным ростом. Идеальный вариант — суккуленты
+                    и кактусы. Для имитации тропиков можно использовать орхидеи и папортники
+                </div>
+
+            </div>
+            <svg class="scheme-line scheme-line-2" width="98" height="58" viewBox="0 0 98 58" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <circle cx="6.74928" cy="50.8334" r="5" transform="rotate(-27.6483 6.74928 50.8334)" fill="#31573F"/>
+                <circle cx="23.5798" cy="42.0167" r="5" transform="rotate(-27.6483 23.5798 42.0167)" fill="#31573F"/>
+                <circle cx="40.4099" cy="33.1998" r="5" transform="rotate(-27.6483 40.4099 33.1998)" fill="#31573F"/>
+                <circle cx="57.2407" cy="24.3829" r="5" transform="rotate(-27.6483 57.2407 24.3829)" fill="#31573F"/>
+                <circle cx="74.0711" cy="15.5663" r="5" transform="rotate(-27.6483 74.0711 15.5663)" fill="#31573F"/>
+                <circle cx="90.9016" cy="6.74939" r="5" transform="rotate(-27.6483 90.9016 6.74939)" fill="#31573F"/>
+            </svg>
+
+            <div class="scheme-item item-soil">
+                <div class="scheme-title">Грунт и дренаж</div>
+                <div class="scheme-text">
+                    Выбор грунта зависит от растений. Для кактусов и суккулентов подойдут смеси с песком и керамзитом,
+                    для влаголюбивых растений — с перегноем и биогумусом. На дне располагают слой дренажа для отвода
+                    лишней влаги
+                </div>
+                <div class="scheme-img">
+                    <img src="images/scheme-3.png" alt="scheme-1">
+                </div>
+            </div>
+            <svg class="scheme-line scheme-line-3" width="98" height="58" viewBox="0 0 98 58" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 97.6508 48.7245)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 80.8203 39.9079)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 63.9902 31.091)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 47.1594 22.2741)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 30.3291 13.4574)"
+                        fill="#31573F"/>
+                <circle cx="5" cy="5" r="5" transform="matrix(-0.885812 -0.464043 -0.464043 0.885812 13.4985 4.64055)"
+                        fill="#31573F"/>
+            </svg>
+
+            <div class="scheme-item item-jar">
+                <div class="scheme-img">
+                    <img src="images/scheme-4.png" alt="scheme-1">
+                </div>
+                <div class="scheme-title">Емкость</div>
+                <div class="scheme-text">
+                    Подойдёт любая стеклянная ёмкость: ваза, чаша, банка, аквариум и даже сткан. Выбор формы и типа
+                    зависит от вида и размера растений, расположения флорариума и творческой задумки
+                </div>
+
+            </div>
+            <svg class="scheme-line scheme-line-4" width="88" height="74" viewBox="0 0 88 74" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <circle cx="7.03369" cy="66.9558" r="5" transform="rotate(-39.1062 7.03369 66.9558)" fill="#31573F"/>
+                <circle cx="21.7773" cy="54.9715" r="5" transform="rotate(-39.1062 21.7773 54.9715)" fill="#31573F"/>
+                <circle cx="36.521" cy="42.9871" r="5" transform="rotate(-39.1062 36.521 42.9871)" fill="#31573F"/>
+                <circle cx="51.2646" cy="31.0027" r="5" transform="rotate(-39.1062 51.2646 31.0027)" fill="#31573F"/>
+                <circle cx="66.0081" cy="19.0183" r="5" transform="rotate(-39.1062 66.0081 19.0183)" fill="#31573F"/>
+                <circle cx="80.7517" cy="7.03372" r="5" transform="rotate(-39.1062 80.7517 7.03372)" fill="#31573F"/>
+            </svg>
+            <img class="line_a" src="images/line_a.svg" alt="">
+
+            <div class="terrarium">
+                <div class="terrarium-img">
+                    <img src="images/scheme-5.png" alt="scheme-1">
+                </div>
+                <div class="terrarium-text">
+                    Прежде чем создавать свой уникальный флорариум, нужно определиться какое место вашего дома он будет
+                    украшать, важно учесть особенности интерьера, освещенность и уровень влажности
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="for-whom">
+    <div class="line-h2">
+        <h2 class="section-title">Кому будет интересно?</h2>
+    </div>
+
+    <div class="container">
+        <div class="for-whom-description">Целью нашей выставки является создание единого пространства для обмена опытом
+            и вдохновения профессионалов
+            своего дела, опытных любителей и только начинающих в сфере растеневодства
+        </div>
+        <div class="for-whom-wrapper">
+            <div class="for-whom-card wow animate__fadeInLeft">
+                <div class="whom-title">Флористы и опытные любители</div>
+                <div class="whom-text">На выставке вы сможете познакомится и обменяться опытом со специалистами
+                    в области
+                    суккулентных растений, открыть для себя новые варианты их использования в декоре цветочных
+                    композиций
+                    и интерьера
+                </div>
+            </div>
+            <div class="for-whom-card wow animate__fadeInRight">
+                <div class="whom-title">Новички в сфере флористики</div>
+                <div class="whom-text">Если вы только начали свой путь по выращиванию растений — наша выставка станет
+                    для вас настоящим открытием! Вы познакомитесь с разнообразным миром суккулентных растений, узнаете
+                    все об их содержании и уходе
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="ticker">
+        <a href="#buy-cards" class="ticker-track">
+
+                <span class="ticker-item">
+            Купить билет
+          <img src="images/flower.svg" alt="">
+            </span>
+
+            <span class="ticker-item">
+            Купить билет
+           <img src="images/flower.svg" alt="">
+            </span>
+
+            <span class="ticker-item">
+            Купить билет
+          <img src="images/flower.svg" alt="">
+            </span>
+
+            <span class="ticker-item">
+            Купить билет
+           <img src="images/flower.svg" alt="">
+            </span>
+
+            <span class="ticker-item">
+            Купить билет
+          <img src="images/flower.svg" alt="">
+            </span>
+
+        </a>
+    </div>
+</section>
+
+<section class="what-to-expect" >
+    <div class="line-h2">
+        <h2 class="section-title" id="what-to-expect">Что Вас ждет</h2>
+    </div>
+
+    <div class="container">
+        <div class="expect-content wow animate__slideInUp" >
+            <div class="expect-card hvr-grow">
+                <div class="expect-card-title">Выставка</div>
+                <img src="images/ex1.png" alt="">
+                <div class="expect-card-text">
+                    Мы представим вашему вниманию самые различные типы флорариумов, от микро-композиций, до больших
+                    экзотических варинтов
+                </div>
+            </div>
+            <div class="expect-card hvr-grow">
+                <div class="expect-card-title">Мастер-класс</div>
+                <img src="images/ex2.png" alt="">
+                <div class="expect-card-text">
+                    В рамках выставки вы сможете самостоятельно создать свой уникальный флорариум. Доступ
+                    на мастер-класс доступен по билету «Max»
+                </div>
+            </div>
+            <div class="expect-card hvr-grow">
+                <div class="expect-card-title">Лекции</div>
+                <img src="images/ex3.png" alt="">
+                <div class="expect-card-text">
+                    Для тех, кто хочет получить опыт в новой сфере, пройдут две лекции, где наши специалисты
+                    расскажут об особенностях флорариумов и уходе за суккулентными растениями
+                </div>
+            </div>
+            <div class="expect-card hvr-grow">
+                <div class="expect-card-title">Ярмарка</div>
+                <img src="images/ex4.png" alt="">
+                <div class="expect-card-text">
+                    На выставке вы сможете приобрести все необходимое для создания флорариума: ёмкости, грунт,
+                    декор, растения, подкормки, фитолампы и многое другое
+                </div>
+            </div>
+            <div class="expect-card hvr-grow">
+                <div class="expect-card-title">Фотозона</div>
+                <img src="images/ex5.png" alt="">
+                <div class="expect-card-text">
+                    Партнёры выствки — флористическая студия декора «FloraHouse» предоставит
+                    для вас роскошную фотозону, полностью выполненную из стабилизированного мха
+                </div>
+            </div>
+            <div class="expect-card hvr-grow">
+                <div class="expect-card-title">Розыгрыш</div>
+                <img src="images/ex6.png" alt="">
+                <div class="expect-card-text">
+                    Победитель розыгрыша получит большой флорариум изготовленный нашими мастерами.
+                    Участие в розыгрыше примут обладатели билета «Max»
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="schedule" id="schedule">
+    <div class="line-h2">
+        <h2 class="section-title">Расписание</h2>
+    </div>
+
+    <div class="container">
+        <div class="schedule-header">19 мая 10:00 – 19:00</div>
+
+        <div class="schedule-item">
+            <div class="schedule-item-time">10:00</div>
+            <h3 class="schedule-item-title">Открытие</h3>
+            <p class="schedule-item-desc">Открытие нашей выставки и организационные моменты</p>
+        </div>
+
+        <div class="schedule-item">
+            <div class="schedule-item-time">11:00 – 12:00</div>
+            <h3 class="schedule-item-title">Лекция «Все о флорариумах»</h3>
+            <div class="schedule-item-speaker">Спикер <span>Елена Власенкова</span></div>
+            <p class="schedule-item-desc">Вы узнаете о том, что такое флорариум, его историю, особенности создания и
+                декора, и возможности для использования в интерьере</p>
+        </div>
+
+        <div class="schedule-item">
+            <div class="schedule-item-time">12:00 – 13:30</div>
+            <h3 class="schedule-item-title">Мастер-класс «Создаем флорариум»</h3>
+            <div class="schedule-item-speaker">Спикер <span>Ирина Парфенюк</span></div>
+            <p class="schedule-item-desc">Вместе с нашим флористом вы создадите свой собственный флорариум</p>
+        </div>
+
+        <div class="schedule-item">
+            <div class="schedule-item-time">15:00 – 16:00</div>
+            <h3 class="schedule-item-title">Лекция «Суккуленты — правильный уход и содержание»</h3>
+            <div class="schedule-item-speaker">Спикер <span>Ольга Сафронова</span></div>
+            <p class="schedule-item-desc">Наш спикер расскажет о том, как правильно выбрать здоровое растение, а так же
+                о том, как правильно его содержать</p>
+        </div>
+
+        <div class="schedule-item">
+            <div class="schedule-item-time">17:00</div>
+            <h3 class="schedule-item-title">Розыгрыш флорариума</h3>
+            <p class="schedule-item-desc">Посетители выставки (по тарифу «Max») смогут поучаствовать в розыгрыше
+                флорариума от наших мастеров</p>
+        </div>
+
+        <div class="schedule-item">
+            <div class="schedule-item-time">19:00</div>
+            <h3 class="schedule-item-title">Закрытие выставки</h3>
+        </div>
+
+    </div>
+</section>
+
+<div class="ticker">
+    <a href="#buy-cards" class="ticker-track">
+
+                <span class="ticker-item">
+            Купить билет
+          <img src="images/flower.svg" alt="">
+            </span>
+
+        <span class="ticker-item">
+            Купить билет
+           <img src="images/flower.svg" alt="">
+            </span>
+
+        <span class="ticker-item">
+            Купить билет
+          <img src="images/flower.svg" alt="">
+            </span>
+
+        <span class="ticker-item">
+            Купить билет
+           <img src="images/flower.svg" alt="">
+            </span>
+
+        <span class="ticker-item">
+            Купить билет
+          <img src="images/flower.svg" alt="">
+            </span>
+
+    </a>
+</div>
+
+<section class="speakers">
+    <div class="line-h2">
+        <h2 class="section-title">Наши спикеры</h2>
+    </div>
+
+    <div class="container">
+        <div class="speakers-cards">
+            <div class="speaker-card hvr-grow">
+                <div class="speaker-card-image">
+                    <img src="images/sp1.png" alt="">
+                </div>
+                <div class="speaker-card-name">
+                    Елена Власенкова
+                </div>
+                <div class="speaker-card-info">
+                    Основатель фитостудии «Fantasy Garden», специалист по суккулентным и тропическим растениям
+                </div>
+            </div>
+            <div class="speaker-card hvr-grow">
+                <div class="speaker-card-image">
+                    <img src="images/sp2.png" alt="">
+                </div>
+                <div class="speaker-card-name">
+                    Ирина Парфенюк
+                </div>
+                <div class="speaker-card-info">
+                    Флорист фитостудии «Fantasy Garden», специалист в области флористического дизайна в интерьере
+                </div>
+            </div>
+            <div class="speaker-card hvr-grow">
+                <div class="speaker-card-image">
+                    <img src="images/sp3.png" alt="">
+                </div>
+                <div class="speaker-card-name">
+                    Ольга Сафронова
+                </div>
+                <div class="speaker-card-info">
+                    Спецалист по пустынным растениям, лектор Центарального Сибирского ботанического сада СО РАН
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="line-h2">
+        <h2 class="section-title" id="gallery">Галерея</h2>
+    </div>
+
+    <div class="container">
+
+        <div class="swiper mySwiper" >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="gallery-grid">
+                        <a href="images/gallery/g1.png" class="gallery-item gallery-item-1">
+                            <img src="images/gallery/g1.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g2.png" class="gallery-item gallery-item-2">
+                            <img src="images/gallery/g2.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g3.png" class="gallery-item gallery-item-3">
+                            <img src="images/gallery/g3.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g4.png" class="gallery-item gallery-item-4">
+                            <img src="images/gallery/g4.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g5.png" class="gallery-item gallery-item-5">
+                            <img src="images/gallery/g5.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g6.png" class="gallery-item gallery-item-6">
+                            <img src="images/gallery/g6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gallery-grid">
+                        <a href="images/gallery/g7.png" class="gallery-item gallery-item-1">
+                            <img src="images/gallery/g7.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g8.png" class="gallery-item gallery-item-2">
+                            <img src="images/gallery/g8.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g9.png" class="gallery-item gallery-item-3">
+                            <img src="images/gallery/g9.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g10.png" class="gallery-item gallery-item-4">
+                            <img src="images/gallery/g10.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g11.png" class="gallery-item gallery-item-5">
+                            <img src="images/gallery/g11.png" alt="">
+                        </a>
+
+                        <a href="images/gallery/g12.png" class="gallery-item gallery-item-6">
+                            <img src="images/gallery/g12.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section class="buy">
+    <div class="line-h2">
+        <h2 class="section-title">Купить билет</h2>
+    </div>
+
+    <div class="container">
+        <div class="buy-cards" id="buy-cards">
+            <div class="ticket ticket-1">
+                <div class="ticket-cut ticket-cut-left"></div>
+                <div class="ticket-cut ticket-cut-right"></div>
+                <div class="ticket-image">
+                    <img src="images/buy-1.png" alt="">
+                </div>
+                <div class="ticket-tariff">
+                    Тариф
+                    <div>“MINI”</div>
+                </div>
+                <div class="ticket-text">
+                    Доступны все экспозиции выставки, две часовые лекции, ярмарка и фотозон
+                </div>
+                <div class="ticket-price">400 р</div>
+                <button class="ticket-btn hvr-float" data-price="400">купить билет</button>
+            </div>
+
+            <div class="ticket ticket-2">
+                <div class="ticket-image">
+                    <img src="images/buy-2.png" alt="">
+                </div>
+                <div class="ticket-tariff">
+                    Тариф
+                    <div>“MAX”</div>
+                </div>
+                <div class="ticket-text">
+                    Доступны все экспозиции выставки, две часовые лекции, ярмарка, фотозона, участие в мастер-классе и
+                    розыгрыше
+                </div>
+                <div class="ticket-price">800 р</div>
+                <button class="ticket-btn btn-2 hvr-float" data-price="800">купить билет</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="сontacts" >
+    <div class="line-h2">
+        <h2 class="section-title h2-contacts">Время и место</h2>
+    </div>
+
+    <div class="container" id="contacts">
+        <div class="contacts-content">
+
+                <div class="map" style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/67/tomsk/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Томск</a><a
+                        href="https://yandex.ru/maps/20088/zelenogorsk/house/sovetskaya_ulitsa_8a/bU0Ycw9oTUMAQFtsfX1wdH1hZw==/?ll=94.588467%2C56.115123&utm_medium=mapframe&utm_source=maps&z=16.59"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Советская улица, 8А — Яндекс Карты</a>
+                    <iframe src="https://yandex.ru/map-widget/v1/?ll=94.588467%2C56.115123&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTgyNzIxMjI4EmvQoNC-0YHRgdC40Y8sINCa0YDQsNGB0L3QvtGP0YDRgdC60LjQuSDQutGA0LDQuSwg0JfQtdC70LXQvdC-0LPQvtGA0YHQuiwg0KHQvtCy0LXRgtGB0LrQsNGPINGD0LvQuNGG0LAsIDjQkCIKDUwtvUIV43VgQg%2C%2C&z=16.59"
+                            width="560" height="552" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                </div>
+
+
+                <div class="сontacts-info-place">
+                    <span> Выставка “Fantasy Garden” будет проходить:</span>
+                    <div class="place-time">
+                        25 мая 2025 года
+                       <div>с 10:00 до 19:00</div>
+                    </div>
+                    <div class="place-address">
+                        по адресу улица Советская 8а, вход со двора
+                    </div>
+                </div>
+                <div class="contacts-info-connection">
+                    <span>Вы можете связаться с нами:</span>
+                    <div class="contact-item contact-phone"><img src="images/icons/phone2.png" alt="">8-800-508-67-13</div>
+                    <div class="contact-item contact-telegram"><img src="images/icons/telegram.png" alt="">Написав нам в Telegram </div>
+                    <div class="contact-item contact-email"><img src="images/icons/mail.png" alt="">fgarden@gmail.com</div>
+                </div>
+                <div class="social-media">
+                    <span>Наши социальные сети</span>
+                    <div class="social-media-ico">
+                        <img src="images/icons/vk.png" alt="">
+                        <img src="images/icons/inst.png" alt="">
+                    </div>
+
+                </div>
+            <div class="footer">
+                <img src="images/logo_2.png" alt="">
+                <div class="footer-text">
+                    2019-2024. ООО “Флора”.
+                    Все права защищены
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<div class="modal">
+    <div class="modal-overlay"></div>
+    <div class="popup">
+        <button class="modal-close" type="button">
+        <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.0882 23.0882L23.3014 1.875M23.0882 23.0882L1.875 1.875" stroke="#1E2B22" stroke-width="3.75" stroke-linecap="round"/>
+        </svg>
+
+        </button>
+
+        <form class="payment-form">
+            <h1>Выберите способ оплаты</h1>
+            <div class="payment-methods">
+                <label class="payment-method">
+                    <input type="radio" name="payment" value="sbp" id="radio">
+                    <span class="radio"></span>
+                    <span class="payment-name">СБП</span>
+                    <span class="sbp-logo">
+                    <img src="images/icons/sbp.png" alt="">
+                    </span>
+                </label>
+
+                <label class="payment-method">
+                    <input type="radio" name="payment" value="card" id="radio2">
+                    <span class="radio"></span>
+                    <span class="payment-name">Банковская карта</span>
+                </label>
+            </div>
+            <div class="input-error">Выберите способ оплаты</div>
+
+            <div class="form-fields">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" placeholder="Ирина">
+                    <div class="input-error">Введите имя</div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="text" id="phone" placeholder="+7 (__) ___ - __ - __">
+                    <div class="input-error">Введите номер телефона</div>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="text" id="email" placeholder="fgarden@gmail.com">
+                    <div class="input-error">Введите Email</div>
+                </div>
+            </div>
+
+
+            <!-- Согласие -->
+
+            <label class="agreement">
+                <input class="checkbox" type="checkbox" name="agreement">
+                <span class="agreement-text">Оплачивая, я соглашаюсь с <a href="#">пользовательским соглашением</a>и<a href="#">даю согласие</a>на обработку своих персональных данных</span>
+            </label>
+            <div class="agreement-error input-error">
+                Необходимо дать согласие
+            </div>
+            <div class="total">
+
+                <span>
+                    Итого:
+                </span>
+
+                <strong id="total-price">
+                    0 ₽
+                </strong>
+
+            </div>
+            <button class="buy-button" type="submit" id="submit">Купить билет</button>
+        </form>
+
+        <div class="message">
+            Спасибо за заказ!
+        </div>
+
+    </div>
+
+</div>
+
+<script src="scripts/jquery-3.7.1.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
